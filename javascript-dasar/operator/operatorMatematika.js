@@ -34,3 +34,33 @@ document.writeln(` ${n2} / ${n3} = ${result} <br/>`)
 // SISA BAGI
 result = n2 % n3;
 document.writeln(`${n2} % ${n3} = ${result} <br/>`)
+
+// Operator Matematika   | Operator Augmented Assigments
+// result = result + 10  | result += 10
+// result = result - 10  | result -= 10
+// result = result * 10  | result *= 10
+// result = result ** 10 | result **= 10
+// result = result / 10  | result /= 10
+// result = result % 10  | result %= 10
+
+let hasil = 0;
+hasil += 10;
+document.writeln(hasil + "</br>");
+
+hasil -= 5;
+document.writeln(hasil + "</br>");
+
+hasil *= 3;
+document.writeln(hasil + "</br>");
+
+hasil **= 2;
+document.writeln(hasil + "</br>");
+
+hasil /= 5;
+document.writeln(hasil + "</br>");
+
+hasil %= 2;
+document.writeln(hasil + "</br>");
+
+
+
