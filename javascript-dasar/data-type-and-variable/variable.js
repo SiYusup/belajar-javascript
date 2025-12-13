@@ -1,0 +1,16 @@
+// CARA MEMBUAT VARIABLE
+var firstname;
+
+// CARA MENAMABAH ATAU MENGUBAH VALUENYA
+firstname = "Syekh Yusuf";
+
+// MEMBUAT VARIABLE DENGAN VALUENYA
+var sayHello = "Hello " + firstname;
+
+// MENGAKSES VARIABLENYA
+document.writeln(sayHello);
+
+// PERBEDAAN LET, VAR, DAN CONST
+let warnaApple = "red"; // MENDUKUNG VARIABLE SCOPE LOKAL DAN GLOBAL
+const apple = "apel"; // NILAI TETAP TIDAK BISA DIUBAH
+var bentukApple = "bulat" // TIDAK MENDUKUNG VARIABLE SCOPE SEHINGGA DAPAT DIUBAH DI MANAPUN
