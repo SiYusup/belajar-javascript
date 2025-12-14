@@ -62,5 +62,11 @@ document.writeln(hasil + "</br>");
 hasil %= 2;
 document.writeln(hasil + "</br>");
 
+// Unary Operator Keterangan
+// + Menandakan nilai positif-Menandakan nilai negatif
+// ++ Increment, menaikkan 1 angka
+// --Decrement, menurunkan 1 angka
 
-
+document.writeln(hasil++ + "<br/>");
+document.writeln(hasil-- + "<br/>");
+document.writeln(+hasil);
